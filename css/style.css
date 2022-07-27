@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container { 
+    display: flex;
+    padding: 15px;
+    box-shadow:  0 0 3em hsla(215, 51%, 16%, 0.397);
+    /* background-color: hsl(216, 50%, 16%); */
+    border-radius: 20px;
+    
+}
+.container__heading{   
+    width: 300px;
+    padding: 5%;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 20px;
+
+}
+
+/* imagem */
+.container__img {
+    width: 100%;
+   
+}   
+.container__img img{
+    border-radius: 10px;
+   
+    width: 100%;
+}
+/* titulo */
+
+.title{
+    font-size: 18pt;
+    color: white;
+}
+/* paragrafo */
+p{
+    font-family: 'Roboto';
+    
+}  
+
+.p__ETH{
+    margin-left: 3px;
+    color:hsl(178, 100%, 50%);
+    font-size: 13pt;
+}
+.p__text,
+.p__Days,
+.p__By{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Roboto';
+    font-size: 12pt;
+}
+
+.ETH__Days{
+    margin-left: 90px;
+}
+
+/* price and date */
+
+.priceDate{
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.jules {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+    }
+    
+}
